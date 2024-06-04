@@ -48,7 +48,9 @@ The Graph class provides various operations on graphs:
     
 + operator>=: Compare two graphs (graph1 >= graph2). This operation returns true if the current graph is greater than or equal to the other graph based on a predefined comparison criteria.
     
-+ operator+(): Return the transpose of a graph (+graph). This operation creates a new graph which is the transpose of the current graph.
++ operator+(): Return the abs value of each edge.
+
++ operator-(): Return the value of each edge multiply -1.
 
 ## Running Tests
 
